@@ -5,21 +5,65 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <title>Curriculum Vitae</title>
   </head>
   <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
+
+    <div id="containers">
+
+      <div class="container">
+        <picture>
+          <source srcset="./assets/images/foto.jpg?as=webp&width=250" type="image/webp" />
+          <img src="./assets/images/foto.jpg?width=250" alt="Foto de perfil" class="profile-photo" />
+        </picture>
+
+        <h1 class="title">Cayetano Borja Carrillo</h1>
+        <hr size="1" />
+        <p><i class="fa-solid fa-house"></i> C/ Carmen Romero Molina, Nº 19, 3ºF. Albox (Almería)</p>
+        <p><i class="fa-solid fa-phone"></i> 670557617</p>
+        <p><i class="fa-solid fa-envelope"></i> cborcar@uoc.edu</p>
+        <p><i class="fa-solid fa-arrow-pointer"></i> https://condescending-elion-07d6d0.netlify.app</p>
+      </div>
+      
+      <div class="container">
+        <h1 class="title">Formación</h1>
+        <hr size="1" />
+        <p><i class="fa-solid fa-user-graduate"></i> Ingeniero Técnico en Informática de Gestión</p>
+        <p><i class="fa-solid fa-graduation-cap"></i> Técnico Superior en Desarrollo y Aplicacion Informáticas</p>
+
+        <h1 class="title">Desarrollo</h1>
+        <hr size="1" />
+        <table>
+          <tbody>
+            <tr>
+              <td><i class="fa-brands fa-html5"></i> HTML5</td>
+              <td><i class="fa-brands fa-css3-alt"></i> CSS3</td>
+              <td><i class="fa-brands fa-js"></i> JavaScript</td>
+            </tr>
+            <tr>
+              <td><i class="fa-brands fa-php"></i> PHP</td>
+              <td><i class="fa-solid fa-c"></i> Lenguaje C</td>
+              <td><i class="fa-brands fa-java"></i> Java</td>
+            </tr>
+            <tr>
+              <td><i class="fa-brands fa-angular"></i> Angular</td>
+              <td><i class="fa-brands fa-laravel"></i> Laravel</td>
+              <td><i class="fa-brands fa-drupal"></i> Drupal</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-database"></i> MySQL</td>
+              <td><i class="fa-brands fa-node"></i> NodeJS</td>
+              <td><i class="fa-brands fa-github"></i> Github</td>
+            </tr>
+          </tbody>
+        </table>
+          
+        <h1 class="title">Experiencia</h1>
+        <hr size="1" />
+        <p><i class="fa-solid fa-chalkboard-user"></i> Profesor de Secundaria (2018 - Hoy)</p>
+        <p><i class="fa-solid fa-microchip"></i> Operador de periféricos (2014 - 2018)</p>
+        <p><i class="fa-brands fa-android"></i> Desarrollador Android (2010 - 2012)</p>
+      </div>
     </div>
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
