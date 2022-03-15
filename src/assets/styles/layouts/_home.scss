@@ -24,6 +24,11 @@ a {
   color: $font-color;
 }
 
+hr {
+  border: none;
+  border-bottom: 1px solid $font-color;
+}
+
 #containers {
   display: flex;
   gap: 40px;
